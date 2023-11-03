@@ -1572,8 +1572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🎈ꜱᴜᴩᴩᴏʀᴛ🎈', callback_data='group_info')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1625,7 +1624,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    
+    elif query.data == "group_info":
+        buttons = [[
+            InlineKeyboardButton('🪄ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ🪄', url="t.me/Mc_Film_Mainchannel")
+       ],[
+            InlineKeyboardButton('🎬ɢʀᴏᴜᴘ🎬', url="t.me/Mc_Group_films"),
+            InlineKeyboardButton('🏅ᴄʜᴀɴɴᴇʟ🏅', url="t.me/Mc_films_channel")
+       ],[
+            InlineKeyboardButton('📣Mᴏᴠɪᴇs ᴜᴩᴅᴀᴛᴇꜱ📣', url="t.me/Mc_Films_Update"),
+            InlineKeyboardButton('🤖ꜱᴜᴘᴘᴏʀᴛ🤖', url="https://t.me/Mc_Films_Update")
+       ],[
+            InlineKeyboardButton('➕️ʜᴇʟᴩ➕️', url="t.me/Mc_Group_Adminbot")
+       ],[ 
+            InlineKeyboardButton('⌫ ʙᴀᴄᴋ', callback_data='start')
+        ]]
+       
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('✪ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ✪', callback_data='stats')
