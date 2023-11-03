@@ -1075,7 +1075,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️", url="https://t.me/Thiranitsme")
+                          InlineKeyboardButton("☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️", url="https://t.me/Mc_Group_Films")
                              ]
                             ]
                         )
@@ -1168,7 +1168,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️", url="https://t.me/N33VARP")
+                          InlineKeyboardButton("☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️", url="https://t.me/Mc_Group_Films")
                  ]
                 ]
             )
@@ -1459,7 +1459,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/movies_hub_official1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/Mc_Group_Films")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1484,7 +1484,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/movies_hub_official1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/Mc_Group_Films")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1543,7 +1543,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️', url="https://t.me/N33VARP")
+                    InlineKeyboardButton('☘️ 𝗡𝟯𝟯𝗩𝗔𝗥𝗣 ☘️', url="https://t.me/Mc_Group_Films")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1631,7 +1631,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
         ], [
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url="https://t.me/N33VARP"),
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url="https://t.me/Mc_Group_Films"),
             InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url=CHNL_LNK)
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
