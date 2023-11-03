@@ -8,11 +8,7 @@ class script(object):
     ABOUT_TXT = """
 <b>‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/{}">ʙᴏᴛ</a>
 ‣ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/Thiranitsme'>Tʜɪʀᴀɴ ᠰ ᴋᴜᴍᴀʀ 🇮🇳</a>
-‣ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
-‣ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
-‣ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://render.com/">Render</a>
-‣ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ.𝟹.𝟶 [ꜱᴛᴀʙʟᴇ]</b>"""
+</b>"""
                   
     DISCLAIMER_TXT =  """<b>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
@@ -247,6 +243,14 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>🥲"""
 
+    GROUP_TXT = """
+<b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟
+
+🎬 Cᴏᴍᴘʟᴇᴛᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘ.
+🚦 Aʟʟ Lᴀɴɢᴜᴀɢᴇs Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
+🗣️ Bᴏᴛ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.
+📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</b>"""
+    
     CAPTION = """ 
 🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
 📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
