@@ -150,7 +150,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}"
+            InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
