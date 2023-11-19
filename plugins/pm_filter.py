@@ -145,10 +145,13 @@ async def next_page(bot, query):
         btn.insert(0, 
             [
                 InlineKeyboardButton(f'⚡ǫᴜᴀʟɪᴛʏ⚡', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}"),
+                
                 InlineKeyboardButton("📍ꜱᴇᴀꜱᴏɴ📍",  callback_data=f"seasons#{key}")
             ]
         )
+        btn.insert(0, [
+            InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}"
+        ])
         btn.insert(0, [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
@@ -2056,7 +2059,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_text(f"<b><i> 𝖲𝖾𝖺𝗋𝖼𝗁𝗂𝗇𝗀 𝖿𝗈𝗋 '{search}' 🌹</i></b>")
+            m=await message.reply_text
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -2087,7 +2090,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_text(f"<b><i> 𝖲𝖾𝖺𝗋𝖼𝗁𝗂𝗇𝗀 𝖿𝗈𝗋 '{search}' 🌹</i></b>")
+        m=await message.reply_text
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     # if 'is_shortlink' in settings.keys():
@@ -2131,7 +2134,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0, 
             [
                 InlineKeyboardButton(f'⚡ǫᴜᴀʟɪᴛʏ⚡', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}"),
+                
                 InlineKeyboardButton("📍ꜱᴇᴀꜱᴏɴ📍",  callback_data=f"seasons#{key}")
             ]    
         )
@@ -2145,6 +2148,9 @@ async def auto_filter(client, msg, spoll=False):
     #     btn.insert(0, [
     #         InlineKeyboardButton('❗❗  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ❗❗', url="https://t.me/MoviesDuniya4U")
     #     ])
+        btn.insert(0, [
+            InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}")
+        ])
         btn.insert(0, [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
