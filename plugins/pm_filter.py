@@ -149,11 +149,9 @@ async def next_page(bot, query):
                 InlineKeyboardButton("📍ꜱᴇᴀꜱᴏɴ📍",  callback_data=f"seasons#{key}")
             ]
         )
+        
         btn.insert(0, [
             InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}")
-        ])
-        btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
@@ -2148,11 +2146,10 @@ async def auto_filter(client, msg, spoll=False):
     #     btn.insert(0, [
     #         InlineKeyboardButton('❗❗  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ❗❗', url="https://t.me/MoviesDuniya4U")
     #     ])
+
+       
         btn.insert(0, [
-            InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}")
-        ])
-        btn.insert(0, [
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🗣️ʟᴀɴɢᴜᴀɢᴇ🗣️", callback_data=f"languages#{key}"
         ])
     # if ENABLE_TUTORIAL == True:
     #     btn.insert(0, [
